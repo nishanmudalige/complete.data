@@ -6,7 +6,6 @@ complete.total = function(df){
   sum(!is.na(df))
 }
 
-
 missing.and.complete = function(df, type = "number"){
   
   if(!is.data.frame(df)){
